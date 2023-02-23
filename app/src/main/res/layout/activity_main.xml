@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:layout_width="wrap_content"
+    android:id="@+id/btn"
+    android:layout_height="wrap_content"
+    android:text="click"/>
+</RelativeLayout>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_marginBottom="8dp"-->
+<!--    android:layout_marginEnd="8dp"-->
+<!--    android:layout_marginStart="8dp"-->
+<!--    android:layout_marginTop="8dp"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <TableLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <TableRow>-->
+<!--            <TextView-->
+<!--                android:text="User Id"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_column="1" />-->
+
+<!--            <EditText-->
+
+<!--                android:id="@+id/u_id"-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20sp"-->
+<!--                android:layout_marginStart="20sp"-->
+<!--                android:width="150px" />-->
+<!--        </TableRow>-->
+<!--        <TableRow>-->
+<!--            <TextView-->
+<!--                android:text="User Name"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_column="1" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/u_name"-->
+<!--                android:width="200dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_column="2"-->
+<!--                android:layout_marginStart="20sp"-->
+<!--                android:layout_marginLeft="20sp"/>-->
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+
+<!--            <TextView-->
+<!--                android:text="User Email"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_column="1" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/u_email"-->
+<!--                android:width="200dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_column="2"-->
+<!--                android:layout_marginStart="20sp"-->
+<!--                android:layout_marginLeft="20sp" />-->
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="350sp"-->
+<!--        android:layout_marginTop="20sp">-->
+<!--        <ListView-->
+<!--            android:id="@+id/listView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="350sp"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="40sp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_gravity="center">-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Save"-->
+<!--            android:onClick="saveRecord"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="View"-->
+<!--            android:onClick="viewRecord"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Update"-->
+<!--            android:onClick="updateRecord"/>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Delete"-->
+<!--            android:onClick="deleteRecord"/>-->
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->
+
+
+<!--&lt;!&ndash;shsared&ndash;&gt;-->
+<!--&lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>&ndash;&gt;-->
+<!--&lt;!&ndash;<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+<!--&lt;!&ndash;    xmlns:app="http://schemas.android.com/apk/res-auto"&ndash;&gt;-->
+<!--&lt;!&ndash;    xmlns:tools="http://schemas.android.com/tools"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    tools:context=".MainActivity">&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <TableLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="368dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="495dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginBottom="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginEnd="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginStart="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintTop_toTopOf="parent">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TableRow>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_column="0"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginLeft="10sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="10sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Enter Id"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/editId"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="201dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_column="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginLeft="50sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="50sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:hint="id"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />&ndash;&gt;-->
+<!--&lt;!&ndash;        </TableRow>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;        <TableRow>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_column="0"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginLeft="10sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="10sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Enter Name"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/editName"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_column="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginLeft="50sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="50sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:hint="name"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />&ndash;&gt;-->
+<!--&lt;!&ndash;        </TableRow>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TableRow android:layout_marginTop="60dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_column="0"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginLeft="10sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="10sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Your Id"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/textViewShowId"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_column="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginLeft="50sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="50sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />&ndash;&gt;-->
+<!--&lt;!&ndash;        </TableRow>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <TableRow android:layout_marginTop="20dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_column="0"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginLeft="10sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="10sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Your Name"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/textViewShowName"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_column="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginLeft="50sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginStart="50sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />&ndash;&gt;-->
+<!--&lt;!&ndash;        </TableRow>&ndash;&gt;-->
+<!--&lt;!&ndash;    </TableLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="fill_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginBottom="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginEnd="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginStart="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:orientation="horizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintHorizontal_bias="0.0"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintStart_toStartOf="parent">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/save"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Save" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/view"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="View" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/clear"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Clear" />&ndash;&gt;-->
+<!--&lt;!&ndash;    </LinearLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;</androidx.constraintlayout.widget.ConstraintLayout>&ndash;&gt;-->
